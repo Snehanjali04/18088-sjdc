@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Responsive Webpage Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header,
+    footer {
+        background-color: #f1f1f1;
+        padding: 1rem;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 0 1rem;
+    }
+
+    /* Responsive Styles using Media Queries */
+
+    @media only screen and (max-width: 768px) {
+
+        /* Stack elements on top of each other for smaller screens */
+        main,
+        aside {
+            float: none;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        main {
+            margin-top: 1rem;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Main Content Area</h2>
+        <p>This is the main content area of the webpage. You can put your articles, product descriptions, or any other
+            relevant information here.</p>
+    </main>
+
+    <aside>
+        <h3>Sidebar</h3>
+        <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Social Media</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ratione, deleniti saepe debitis suscipit at,
+            cupiditate exercitationem iure cumque, doloremque nemo hic. Laboriosam fugit nemo saepe molestiae architecto
+            modi neque.</p>
+    </footer>
+</body>
+
+</html>
