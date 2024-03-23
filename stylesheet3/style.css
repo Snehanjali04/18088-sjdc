@@ -1,0 +1,10 @@
+.v{
+    border-style: ridge;
+    background-color: rgb(218, 232, 238);
+}
+a{
+    color:black;
+}
+ul a{
+    color:grey;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: orangered;
+    color: white;
+}
+div{
+    background-color: white;
+    color:black;
+}
+#v{
+    color:orangered;
+}
+#d{
+    background-color: rgb(241, 175, 150);
+    color:orangered;
+}
+a{
+    color: orangered;
+}
